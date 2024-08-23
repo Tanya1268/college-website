@@ -1,0 +1,79 @@
+body{
+    background-color: lemonchiffon;
+}
+header{
+    background-color: darkkhaki;
+    text-align: right;
+    padding: 5px;
+    border: 5px;
+    margin:auto;
+    display: flex;
+}
+h1{
+    padding-left: 900px;
+}
+.logo{
+   text-align: left;
+   
+
+}
+.uni_name{
+    color:black;
+}
+img{
+    height:100px;
+    width:100px;
+}
+nav{
+    background-color: lightgray;
+    height:60px;
+    margin-top: 15px;
+    text-decoration: none;
+    
+}
+main{
+    padding: 2rem;
+    background-color: brown;
+    background-image: url("i2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+
+.Menu{
+    list-style:none ;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.Menu li{
+   margin: 0 1rem;
+   position: relative;
+   padding: 15px;
+}
+.Menu a{
+    color:brown;
+    text-decoration: none;
+    transition :color 0.3s;
+}
+
+.Menu a :hover{ color:burlywood;}
+
+.submenu-content{
+    display :none;
+    list-style: none;
+    position :absolute;
+    top:100%;
+    left:0;
+    background-color:lightslategray ;
+    z-index: 1;
+}
+.submenu:hover .submenu-content{display:block;}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 1px;
+}
+
